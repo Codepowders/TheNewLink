@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Authenticatable
+class User extends \TCG\Voyager\Models\User
 {
     use Notifiable;
 
@@ -15,8 +15,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'forename', 'email', 'avatar', 'password', 'street', 'streetnumber', 'zipcode', 'avatar', 'klusjes', 'boodschappen', 'gezelschap', 'zorg', 'telephone',
     ];
+
 
     /**
      * The attributes that should be hidden for arrays.
@@ -24,6 +25,10 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'password', 'remember_token', 'enabled',
     ];
+
+    public function posts(){
+        return $this->hasMany('App\Post2');
+    }
 }
