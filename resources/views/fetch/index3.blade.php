@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/platform.css">
 
-
+<!-- This is the index page rendered from fetchcontroller3 -->
 <body>
   <h1>Zorg</h1>
 @foreach($user as $user)

@@ -1,13 +1,6 @@
 
-@extends('layouts.app')
-
-@section('content')
 
 <link rel="stylesheet" href="css/login.css">
-
-
-
-
 
 
 <style>
@@ -85,6 +78,6 @@
 
 
 
-@endsection
+
 </div>
 </body>

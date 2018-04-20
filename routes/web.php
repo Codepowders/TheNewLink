@@ -66,17 +66,10 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get('senior.blade.php', function () {
     return view('seniors.senior');
 });
 
-Route::resource('posts2', 'PostsController');
+Auth::routes();
 
-/*Route::get('blog.blade.php', function () {
-    return view('posts.index');
-});*/
+Route::get('/home', 'HomeController@index')->name('home');
