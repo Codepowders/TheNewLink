@@ -13,8 +13,6 @@
 </head>
 
 
-
-
 <div class="main main-agileits">
   <h1>The newlink</h1>
   <div class="main-agilerow">
@@ -31,8 +29,10 @@
 
   <div class="contact-wthree">
                 <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="{{ route('register') }}">
+                    <form class="form-horizontal" enctype="multipart/form-data" method="POST" action="{{ route('register') }}">
+
                         {{ csrf_field() }}
+
 
                         <h3>Stap 1: Persoonlijke gegevens.</h3>
                         <div class="form-w3step1">
@@ -162,23 +162,6 @@
                         @endif
                         </div>
                       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
