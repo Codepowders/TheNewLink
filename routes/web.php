@@ -17,8 +17,16 @@ Route::get('/fetch3', 'Fetch3Controller@index');
 Route::get('/fetch4', 'Fetch4Controller@index');
 
 
+route::post('upload', 'UploadController@upload' );
+
 Route::get('/', function () {
     return view('index'); // welcome moet naar login=senioren. //index=deelnememers
+});
+
+
+
+Route::get('/upload.blade.php', function () {
+    return view('upload');
 });
 
 Route::get('/contact.blade.php', function () {
