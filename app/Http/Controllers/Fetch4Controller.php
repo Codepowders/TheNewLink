@@ -11,7 +11,7 @@ class Fetch4Controller extends Controller
 {
 
     public function index() {
-      $user = User::select("forename", "name", "streetnumber", "zipcode", "street", "gezelschap", "telephone")->where('gezelschap', 1)->get();
+      $user = User::select("forename", "name", "streetnumber", "zipcode", "street", "gezelschap", "telephone", "avatar")->where('gezelschap', 1)->get();
       $data = [
         'user' => $user
       ];

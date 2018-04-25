@@ -9,10 +9,10 @@ use app\User;
 
 class FetchController extends Controller
 {
-  
+
     public function index() {
 
-      $user = User::select("forename", "name", "streetnumber", "street", "zipcode", "boodschappen", "telephone")->where('boodschappen', 1)->get();
+      $user = User::select("forename", "name", "streetnumber", "street", "zipcode", "boodschappen", "telephone", "avatar")->where('boodschappen', 1)->get();
       $data = [
         'user' => $user
       ];

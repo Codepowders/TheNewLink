@@ -6,6 +6,12 @@
 @foreach($user as $user)
 <div class="platform">
 
+  <div class="avatar">
+<img src="{{ asset('storage/' . $user->avatar) }}" />
+  </div>
+
+
+
   <div class="forename"><p><b>Voornaam:</b></p>
 {{ $user->forename }}
 </div>

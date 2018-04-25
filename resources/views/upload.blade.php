@@ -1,4 +1,4 @@
-<form action="{{ URL::to('upload') }}" method="post" enctype="multipart/form-data">
+<form action="{{ URL::to('upload')}}" method="post" enctype="multipart/form-data">
   <label>select image to upload:</label>
   <input type="file" name="file" id="file">
   <input type="submit" value="Upload" name="submit">
