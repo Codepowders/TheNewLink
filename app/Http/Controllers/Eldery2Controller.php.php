@@ -1,11 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 
-class LoginController extends Controller
+class Eldery2Controller.php extends Controller
 {
     /*
     |--------------------------------------------------------------------------
@@ -25,7 +24,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/welcome.blade.php';
+    protected $redirectTo = '/home';
 
     /**
      * Create a new controller instance.

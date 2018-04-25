@@ -42,7 +42,7 @@
                 <p class="mb-0">
                 <a href="register.blade.php" class="cta-btn">Registreer</a></p>
                 <p class="mb-0">
-                <a href="./posts2" class="cta-btn">Blog</a></p>
+                <a href="elderly.blade.php" class="cta-btn">Platform</a></p>
             </div>
 
           </div>
