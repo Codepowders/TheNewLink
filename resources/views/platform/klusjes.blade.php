@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/platform.css">
 
-<!-- This is the index page rendered from fetchcontroller2 -->
+<!-- This is the index page rendered from KlusjesController -->
 <body>
   <h1>Klusjes</h1>
 @foreach($user as $user)

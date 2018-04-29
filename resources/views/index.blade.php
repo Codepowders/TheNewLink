@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -70,9 +69,9 @@
 
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="doctors.blade.php" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medewerkers</a>
+                <a class="nav-link dropdown-toggle" href="assistents.blade.php" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medewerkers</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="doctors.blade.php">Zoek 1 van onze medewerkers</a>
+                  <a class="dropdown-item" href="assistents.blade.php">Zoek 1 van onze medewerkers</a>
                   <a class="dropdown-item" href="#">Voorbeeld</a>
                 </div>
               </li>
@@ -181,7 +180,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-hospital"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Amenities</h3>
+                    <h3 class="mt-0 text-black">Voorzieningen</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                   </div>
                 </div>
@@ -190,7 +189,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-first-aid-kit"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Medical Services</h3>
+                    <h3 class="mt-0 text-black">Medische services</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                   </div>
                 </div>
@@ -202,7 +201,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-hospital-bed"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Patient Services</h3>
+                    <h3 class="mt-0 text-black">gezelschap</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                   </div>
                 </div>
@@ -211,7 +210,7 @@
                 <div class="media d-block media-feature text-center">
                   <span class="icon flaticon-doctor"></span>
                   <div class="media-body">
-                    <h3 class="mt-0 text-black">Expert Doctors</h3>
+                    <h3 class="mt-0 text-black">Medewerkers</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                   </div>
                 </div>
@@ -234,94 +233,7 @@
         </div>
         <div class="row element-animate">
           <div class="major-caousel js-carousel-1 owl-carousel">
-            <!-- <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div> -->
 
-            <!-- <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div> -->
-            <!-- <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div> -->
 
             <div>
               <div class="media d-block media-custom text-center">
@@ -441,63 +353,6 @@
               </div>
             </div>
 
-            <!-- <div>
-              <div class="media d-block media-custom text-left">
-                <img src="img/img_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
-                    <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 1</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-left">
-                <img src="img/img_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
-                    <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 4</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-left">
-                <img src="img/img_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
-                    <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 12</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-left">
-                <img src="img/img_thumb_4.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
-                    <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 14</a>
-                  </p>
-                </div>
-              </div>
-            </div> -->
-
           </div>
           <!-- END slider -->
         </div>
@@ -517,41 +372,29 @@
           <div class="col-md-3 mb-5">
             <h3>Services</h3>
             <ul class="footer-link list-unstyled">
-              <li><a href="#">Find a doctor</a></li>
-              <li><a href="#">Urgent Care</a></li>
-              <li><a href="#">Emergency Care</a></li>
-              <li><a href="#">Procedures &amp; Treatments</a></li>
-              <li><a href="#">Online Services</a></li>
+              <li><a href="#">Vind 1 van onze medewerkers</a></li>
+              <li><a href="#">Medische hulp</a></li>
             </ul>
           </div>
           <div class="col-md-3 mb-5">
-            <h3>Latest News</h3>
+            <h3>News</h3>
             <ul class="footer-link list-unstyled">
-              <li><a href="#">News &amp; Press Releases</a></li>
-              <li><a href="#">Health Care Professional News</a></li>
-              <li><a href="#">Events &amp; Conferences</a></li>
+              <li><a href="#">Uitjes</a></li>
+              <li><a href="#">Evenementen</a></li>
             </ul>
           </div>
           <div class="col-md-3 mb-5">
-            <h3>About</h3>
+            <h3>Over ons</h3>
             <ul class="footer-link list-unstyled">
-              <li><a href="#">About The Hospital</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Accreditations &amp; Awards</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Het project</a></li>
+              <li><a href="#">Ouderen</a></li>
             </ul>
           </div>
           <div class="col-md-3 mb-5">
-            <h3>Location &amp; Contact</h3>
-            <p class="mb-5">134 Street Name, City Name Here, United States</p>
-
+            <h3>Locatie &amp; Contact</h3>
             <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
-            <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
-
-            <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
-            <p>+1 24 435 3533</p>
-
+            <h4 class="text-uppercase mb-3 h6 text-white">Telefoon</h5>
+            <p>0612121212</p>
           </div>
         </div>
 
@@ -578,7 +421,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+            <h5 class="modal-title" id="modalAppointmentLabel">Afspraak maken</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -586,7 +429,7 @@
           <div class="modal-body">
             <form action="#">
               <div class="form-group">
-                <label for="appointment_name" class="text-black">Full Name</label>
+                <label for="appointment_name" class="text-black">Naam</label>
                 <input type="text" class="form-control" id="appointment_name">
               </div>
               <div class="form-group">
@@ -596,13 +439,13 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="appointment_date" class="text-black">Date</label>
+                    <label for="appointment_date" class="text-black">Datum</label>
                     <input type="text" class="form-control" id="appointment_date">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="appointment_time" class="text-black">Time</label>
+                    <label for="appointment_time" class="text-black">Tijd</label>
                     <input type="text" class="form-control" id="appointment_time">
                   </div>
                 </div>

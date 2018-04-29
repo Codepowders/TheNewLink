@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/fetch', 'FetchController@index');
-Route::get('/fetch2', 'Fetch2Controller@index');
-Route::get('/fetch3', 'Fetch3Controller@index');
-Route::get('/fetch4', 'Fetch4Controller@index');
+Route::get('/boodschappen', 'BoodschappenController@index');
+Route::get('/klusjes', 'KlusjesController@index');
+Route::get('/zorg', 'ZorgController@index');
+Route::get('/gezelschap', 'GezelschapController@index');
 
 
 route::post('upload', 'UploadController@upload' );
@@ -36,9 +36,7 @@ Route::get('/contact.blade.php', function () {
     return view('contact');
 });
 
-Route::get('elderly2.blade.php', function () {
-    return view('elderly2');
-});
+
 
 Route::get('/welcome.blade.php', function () {
     return view('welcome');
@@ -48,8 +46,8 @@ Route::get('welcome.blade.php', function () {
     return view('auth.welcome');
 });
 
-Route::get('/doctors.blade.php', function () {
-    return view('doctors');
+Route::get('/assistents.blade.php', function () {
+    return view('assistents');
 });
 
 Route::get('/news.blade.php', function () {

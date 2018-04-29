@@ -7,7 +7,7 @@ use app\User;
 
 // Controller for the migration table boodschappen
 
-class FetchController extends Controller
+class BoodschappenController extends Controller
 {
 
     public function index() {
@@ -17,6 +17,6 @@ class FetchController extends Controller
         'user' => $user
       ];
 
-      return view('fetch.index',$data);
+      return view('platform.boodschappen',$data);
     }
 }

@@ -7,7 +7,7 @@ use app\User;
 
 // Controller for the migration table zorg
 
-class Fetch3Controller extends Controller
+class ZorgController extends Controller
 {
 
     public function index() {
@@ -17,6 +17,6 @@ class Fetch3Controller extends Controller
         'user' => $user
       ];
 
-      return view('fetch.index3',$data);
+      return view('platform.zorg',$data);
     }
 }

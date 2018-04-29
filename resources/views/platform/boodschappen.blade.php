@@ -1,16 +1,16 @@
 <link rel="stylesheet" href="css/platform.css">
 
-<!-- This is the index page rendered from fetchcontroller3 -->
+<!-- This is the index page rendered from Boodschappencontroller -->
 <body>
-  <h1>Zorg</h1>
+  <h1>Boodschappen</h1>
 @foreach($user as $user)
 <div class="platform">
+
+
 
   <div class="avatar">
 <img src="{{ asset('storage/' . $user->avatar) }}" />
   </div>
-
-
 
   <div class="forename"><p><b>Voornaam:</b></p>
 {{ $user->forename }}
@@ -31,6 +31,12 @@
   <div class="zipcode"><p><b>postcode:</b></p>
 {{ $user->zipcode }}
 </div>
+
+
+<div class="telephone"><p><b>telefoon:</b></p>
+{{ $user->telephone }}
+</div>
+
 </div>
 @endforeach
 </body>
