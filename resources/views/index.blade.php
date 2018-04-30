@@ -453,7 +453,7 @@
 
 
               <div class="form-group">
-                <label for="appointment_message" class="text-black">Message</label>
+                <label for="appointment_message" class="text-black">Bericht</label>
                 <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
               </div>
               <div class="form-group">

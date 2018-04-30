@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>The missing Link</title>
+    <title>The missing link</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
-
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -29,21 +28,28 @@
           <div class="row">
             <div class="col-md-6 col-sm-6 col-5">
               <ul class="social list-unstyled">
-                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li><a href="https://www.facebook.com/Thenewlink-315339535662124/?modal=admin_todo_tour"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://twitter.com/Thenewlinkhelp?lang=nl"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="https://www.instagram.com/newlinknewlink/"><span class="fa fa-instagram"></span></a></li>
               </ul>
             </div>
             <div class="col-md-6 col-sm-6 col-7 text-right">
               <p class="mb-0">
-                <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Make an Appointment</a></p>
+                <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Maak hier een afspraak</a></p>
+              <p class="mb-0">
+                <a href="login.blade.php" class="cta-btn">Login</a></p>
+                <p class="mb-0">
+                <a href="register.blade.php" class="cta-btn">Registreer</a></p>
+                <p class="mb-0">
+                <a href="elderly.blade.php" class="cta-btn">Platform</a></p>
             </div>
+
           </div>
         </div>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="index.blade.php">Medi<span>+</span>  </a>
+          <a class="navbar-brand" href="index.html">Missing<span>Link</span>  </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -51,32 +57,32 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.blade.php">Home</a>
+                <a class="nav-link active" href="index.blade.php">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.blade.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" href="services.blade.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Onze dienstverlening</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="#">Institute</a>
-                  <a class="dropdown-item" href="#">Departments</a>
-                  <a class="dropdown-item active" href="services.blade.php">Services</a>
+                  <a class="dropdown-item" href="#">Voorbeeld</a>
+                  <a class="dropdown-item" href="#">Voorbeeld</a>
+                  <a class="dropdown-item" href="services.blade.php">Dienstverlening</a>
                 </div>
 
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="doctors.blade.php" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
+                <a class="nav-link dropdown-toggle" href="assistents.blade.php" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Medewerkers</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="doctors.blade.php">Find Doctors</a>
-                  <a class="dropdown-item" href="#">Practitioner</a>
+                  <a class="dropdown-item" href="assistents.blade.php">Zoek 1 van onze medewerkers</a>
+                  <a class="dropdown-item" href="#">Voorbeeld</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.blade.php">News</a>
+                <a class="nav-link" href="news.blade.php">Nieuwtjes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.blade.php">About</a>
+                <a class="nav-link" href="about.blade.php">over ons</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.blade.php">Contact</a>
+                <a class="nav-link" href="contact.blade.php">Neem contact op</a>
               </li>
             </ul>
           </div>
@@ -85,23 +91,6 @@
     </header>
     <!-- END header -->
 
-
-    <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
-
-        <div class="container">
-          <div class="row slider-text align-items-center">
-            <div class="col-md-7 col-sm-12 element-animate">
-              <h1>Services</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-    <!-- END slider -->
 
     <section class="section">
       <div class="container">
@@ -240,72 +229,10 @@
 
 
 
-    <a href="#" class="cta-link element-animate" data-toggle="modal" data-target="#modalAppointment">
-      <span class="sub-heading">Ready to Visit?</span>
-      <span class="heading">Make an Appointment</span>
-    </a>
-    <!-- END cta-link -->
 
-    <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5 element-animate">
-          <div class="col-md-3 mb-5">
-            <h3>Services</h3>
-            <ul class="footer-link list-unstyled">
-              <li><a href="#">Find a doctor</a></li>
-              <li><a href="#">Urgent Care</a></li>
-              <li><a href="#">Emergency Care</a></li>
-              <li><a href="#">Procedures &amp; Treatments</a></li>
-              <li><a href="#">Online Services</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Latest News</h3>
-            <ul class="footer-link list-unstyled">
-              <li><a href="#">News &amp; Press Releases</a></li>
-              <li><a href="#">Health Care Professional News</a></li>
-              <li><a href="#">Events &amp; Conferences</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>About</h3>
-            <ul class="footer-link list-unstyled">
-              <li><a href="#">About The Hospital</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Accreditations &amp; Awards</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Feedback</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Location &amp; Contact</h3>
-            <p class="mb-5">134 Street Name, City Name Here, United States</p>
 
-            <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
-            <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
 
-            <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
-            <p>+1 24 435 3533</p>
 
-          </div>
-        </div>
-
-        <div class="row pt-md-3 element-animate">
-          <div class="col-md-12">
-            <hr class="border-t">
-          </div>
-          <div class="col-md-6 col-sm-12 copyright">
-            <p>&copy; 2018 Colorlib Medi+. Designed &amp; Developed by <a href="https://colorlib.com/">Colorlib</a></p>
-          </div>
-          <div class="col-md-6 col-sm-12 text-md-right text-sm-left">
-            <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- END footer -->
 
 
     <!-- Modal -->
@@ -313,7 +240,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+            <h5 class="modal-title" id="modalAppointmentLabel">Afspraak maken</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -321,7 +248,7 @@
           <div class="modal-body">
             <form action="#">
               <div class="form-group">
-                <label for="appointment_name" class="text-black">Full Name</label>
+                <label for="appointment_name" class="text-black">Naam</label>
                 <input type="text" class="form-control" id="appointment_name">
               </div>
               <div class="form-group">
@@ -331,13 +258,13 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="appointment_date" class="text-black">Date</label>
+                    <label for="appointment_date" class="text-black">Datum</label>
                     <input type="text" class="form-control" id="appointment_date">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="appointment_time" class="text-black">Time</label>
+                    <label for="appointment_time" class="text-black">Tijd</label>
                     <input type="text" class="form-control" id="appointment_time">
                   </div>
                 </div>
@@ -345,7 +272,7 @@
 
 
               <div class="form-group">
-                <label for="appointment_message" class="text-black">Message</label>
+                <label for="appointment_message" class="text-black">Bericht</label>
                 <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
               </div>
               <div class="form-group">
